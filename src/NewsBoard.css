@@ -1,0 +1,32 @@
+/* newsboard.css */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  .container h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+  
+  /* Grid layout for NewsItem cards */
+  .container .news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  /* Optional: Make images inside NewsItem scale nicely */
+  .news-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  /* Optional: Center text in badges or headings */
+  .text-center {
+    text-align: center;
+  }
+  
