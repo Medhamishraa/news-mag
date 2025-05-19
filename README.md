@@ -14,6 +14,10 @@ A stylish and responsive **React-based news frontend** that fetches and displays
 
 ---
 
+**NewsAPI.org** – for fetching live news data
+
+---
+
 ## Project Structure
 
 ```bash
@@ -42,15 +46,11 @@ NEWS-MAG/
 ├── package-lock.json
 ├── README.md            # ← You're reading it!
 └── vite.config.js
-
----
-
-**NewsAPI.org** – for fetching live news data
-
----
+```
 
 ## About the Developer
 
 **Medha Mishra**  
-📧 Email: **medhamishra1708@gmail.com**  
-🎓 **B.Tech CSE @ NSUT, Delhi**
+📧 Email: medhamishra1708@gmail.com
+🎓 B.Tech CSE @ NSUT, Delhi
+---
