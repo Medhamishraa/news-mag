@@ -1,12 +1,56 @@
-# React + Vite
+# News-Mag
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A stylish and responsive **React-based news frontend** that fetches and displays real-time news using the **NewsAPI**. Designed with **Bootstrap CSS**, this app offers a clean UI and dynamic news browsing experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Fetches top headlines using **NewsAPI**
+- Built with **React + Vite** for fast performance
+- Styled using **Bootstrap 5**
+- Fully responsive layout
+- Modular architecture using reusable components
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Project Structure
+
+```bash
+NEWS-MAG/
+│
+├── node_modules/
+├── public/
+├── src/
+│   ├── assets/
+│   │   └── news.jpeg
+│   ├── Components/
+│   │   ├── Navbar.jsx
+│   │   ├── NewsBoard.jsx
+│   │   └── NewsItem.jsx
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   ├── main.jsx
+│   └── NewsBoard.css
+│
+├── .env                 # Store your NewsAPI key here
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── README.md            # ← You're reading it!
+└── vite.config.js
+
+---
+
+**NewsAPI.org** – for fetching live news data
+
+---
+
+## About the Developer
+
+**Medha Mishra**  
+📧 Email: **medhamishra1708@gmail.com**  
+🎓 **B.Tech CSE @ NSUT, Delhi**
